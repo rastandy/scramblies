@@ -1,0 +1,12 @@
+{:duct.core/project-ns  scramblies
+ :duct.core/environment :production
+
+ :duct.module/logging {}
+ :duct.module.web/api {}
+ 
+ :duct.router/cascading
+ [#ig/ref :scramblies.handler/scramble]
+
+ :scramblies.handler/scramble {}
+ }
+
